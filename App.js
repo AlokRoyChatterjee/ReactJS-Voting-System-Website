@@ -29,11 +29,11 @@ class App extends Component{
 	render(){
 		return(
 			<>
-				<h1>Vote for your products!</h1>
+				<h2>Voting for products</h2>
 				<div className="products">
 					{
 						this.state.products.map((product, i) => 
-							<div key={i} className="language">
+							<div key={i} className="product">
 								<div className="voteCount">
 									{product.votes}
 								</div>
