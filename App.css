@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+h1 {
+  margin: 30px;
+}
 
 body {
   text-align: center;
@@ -9,20 +12,16 @@ body {
   font-size: 24px; 
   font-family: sans-serif;
 }
-
-h1 {
-  margin: 30px;
+.product button {
+  color: green;
+  background-color: #0000;
+  border: none;
+  font-size: 30px;
+  outline: none;
+  cursor: pointer;
 }
 
-.languages {
-  height: 400px;
-  width: 400px;
-  margin: 10px auto;
-  display: flex;
-  flex-direction: column;
-}
-
-.language {
+.product {
   flex: 1;
   display: flex;
   justify-content: space-between;
@@ -39,12 +38,12 @@ h1 {
   justify-content: center;
   align-items: center;
 }
-
-.language button {
-  color: green;
-  background-color: #0000;
-  border: none;
-  font-size: 30px;
-  outline: none;
-  cursor: pointer;
+.products {
+  height: 400px;
+  width: 400px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
 }
+
+
